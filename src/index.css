@@ -5,13 +5,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 a {
@@ -29,6 +33,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #242424;
 }
 
 h1 {
@@ -66,4 +71,46 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.logo {
+  height: 350px;
+  border: 1px solid #fff;
+}
+.intro {
+  font-size: 1.5em;
+}
+
+.embtn {
+  display: flex;
+  width: 247px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  margin-left: auto;
+margin-right: auto;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+h2 {
+  text-align: left;
+  
+}
+
+.cunts {
+  text-align: left;
+}
+
+.foot {
+  background: #000;
+  padding: 20px;
 }

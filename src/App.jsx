@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import reactLogo from "./assets/mainimg.jpg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Neil Scnegger</h1>
+      <p className="intro">React Developer</p>
+      <button className="embtn">Email</button>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        <hr />
+        <h2>About Me</h2>
+        <p className="cunts">
+          I am a frontend developer with a particular interest in making things
+          simple and automating daily tasks. I try to keep up with security and
+          best practices, and am always looking for new things to learn.
+        </p>
+        <h2>Interests</h2>
+        <p className="cunts">
+          Protein. Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+          Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="foot">
+        <p>FB, Twiiter, Insta, Linkdedin</p>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
